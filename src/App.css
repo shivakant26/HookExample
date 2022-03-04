@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.Header{
+  background: brown;
+}
+.Logo{
+float: left;
+width: 30%;
+}
+.menu{
+float: right;
+width: 70%;
+padding: 11px 0px;
+}
+.menu a{
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: .4s;
+}
+.menu a:hover{
+  color: black;
+}
+
+.form-field{
+  margin-bottom: 10px;
+}
+input[type="text"],input[type="password"]{
+  padding: 8px 20px;
+}
+button{
+    padding: 8px 30px;
+    background: black;
+    border: 1px solid;
+    color: #ffff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .4s;
+    letter-spacing: 2.2px;
+}
+button:hover{
+  background:rgb(58, 13, 13);
+}
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 12px rgb(0 0 0 / 50%);
+  padding: 50px;
+}
+.car-list h2{
+padding: 30px
+}
+
