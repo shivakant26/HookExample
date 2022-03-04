@@ -1,12 +1,14 @@
-import React   from "react";
+import React from "react";
 
 
-const Home = () =>{
-    
+const Home = () => {
 
-    return(
+
+    return (
         <div>
-           <h2>Home</h2>
+            <h2>Home</h2>
+            
+            
         </div>
     )
 }
